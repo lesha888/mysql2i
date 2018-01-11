@@ -1,0 +1,11 @@
+{
+	"name": "lesha888/mysql2i",
+	"description": "Adapter to provide mysql interface on mysqli for php7",
+	"license": "WTFPL",
+	"authors": [{
+		"name": "Alex"
+	}],
+	"require": {
+		"php": "^7.0"
+	}
+}
