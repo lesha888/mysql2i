@@ -5,6 +5,9 @@
 	"authors": [{
 		"name": "Alex"
 	}],
+	"autoload": {
+                "classmap": ["mysql2i.class.php"]
+    	},
 	"require": {
 		"php": "^7.0"
 	}
