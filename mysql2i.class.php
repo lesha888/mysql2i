@@ -467,6 +467,7 @@ class mysql2i
 
         mysqli_data_seek($result, $row);
         if (!empty($field)) {
+            mysqli_field_seek($result, 0);
             while ($finfo = mysqli_fetch_field($result)) {
                 if ($field == $finfo->name) {
                     $f = mysqli_fetch_assoc($result);
